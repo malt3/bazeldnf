@@ -30,7 +30,7 @@ function write_arch() {
         name = "bazeldnf-${os}-${arch}",
         executable = True,
         sha256 = "${DIGEST}",
-        urls = ["https://github.com/rmohr/bazeldnf/releases/download/${VERSION}/bazeldnf-${VERSION}-${os}-${arch}"],
+        urls = ["https://github.com/malt3/bazeldnf/releases/download/${VERSION}/bazeldnf-${VERSION}-${os}-${arch}"],
     )
 EOT
 
@@ -96,7 +96,7 @@ http_archive(
     name = "bazeldnf",
     sha256 = "${DIGEST}",
     urls = [
-        "https://github.com/rmohr/bazeldnf/releases/download/${VERSION}/bazeldnf-${VERSION}.tar.gz",
+        "https://github.com/malt3/bazeldnf/releases/download/${VERSION}/bazeldnf-${VERSION}.tar.gz",
     ],
 )
 
